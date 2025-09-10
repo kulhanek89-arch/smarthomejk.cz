@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartHomeJK</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pO3nP2W5yLr7h8ZkV4fV5lLkP9Q8x7wq9t6lW9QGZ5d7YzR9YhRZfX1pW5uZ6dN5R6c5f3L6x9xj1N6R5rZ3YQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <!-- Header -->
+  <header class="bg-black text-white p-4 md:p-6 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl md:text-2xl font-bold">SmartHomeJK</h1>
+      <nav class="space-x-4 md:space-x-6 flex items-center text-sm md:text-base">
+        <a href="#sluzby" class="hover:text-blue-400">Služby</a>
+        <a href="#onas" class="hover:text-blue-400">O nás</a>
+        <a href="#kontakt" class="hover:text-blue-400">Kontakt</a>
+        <a href="https://www.instagram.com/smarthome.kulhanek/?igsh=MXJsMnd3OWFxazkwMA%3D%3D&utm_source=qr#" target="_blank" class="hover:text-pink-400 flex items-center space-x-1 md:space-x-2">
+          <i class="fab fa-instagram"></i><span class="hidden sm:inline">Instagram</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="bg-gray-100 py-16 md:py-20 text-center px-4">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Chytrý domov na míru</h2>
+    <p class="text-base md:text-lg mb-6">Specializujeme se na Loxone SmartHome, rekuperace Jablotron, topení Heatflow, revize, fotovoltaiku a zabezpečovací systémy Jablotron.</p>
+    <a href="#kontakt" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600 transition w-full sm:w-auto inline-block">Kontaktujte nás</a>
+  </section>
+
+  <!-- Services -->
+  <section id="sluzby" class="container mx-auto py-12 md:py-16 px-4">
+    <h3 class="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-10">Naše služby</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">SmartHome Loxone</h4>
+        <p>Kompletní řešení chytré domácnosti pomocí systému Loxone – ovládání světel, žaluzií, topení a zabezpečení atd.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">Rekuperace Jablotron</h4>
+        <p>Čistý a zdravý vzduch v domě díky profesionální rekuperaci.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">Topení Heatflow</h4>
+        <p>Úsporné a komfortní elektrické vytápění pro moderní domácnosti.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">Revize</h4>
+        <p>Provádíme elektro revize pro domácnosti i firmy v souladu s platnými normami.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">Fotovoltaické elektrárny (FVE)</h4>
+        <p>Nabízíme návrh a realizaci fotovoltaických systémů pro úsporu energie a soběstačnost domácnosti.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-xl border hover:shadow-lg transition">
+        <h4 class="text-lg md:text-xl font-semibold mb-2">Zabezpečovací systémy Jablotron</h4>
+        <p>Moderní a spolehlivé zabezpečovací systémy Jablotron pro maximální bezpečí vaší domácnosti i firmy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section id="onas" class="bg-gray-50 py-12 md:py-16 px-4">
+    <div class="container mx-auto text-center max-w-2xl">
+      <h3 class="text-2xl md:text-3xl font-bold mb-6">O nás</h3>
+      <p class="text-base md:text-lg">Jsme Goldpartneři firmy Loxone, která je zaměřená na moderní technologie a chytrá řešení. Našim cílem je poskytnout zákazníkům komfort, bezpečí a úspory energie.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="kontakt" class="container mx-auto py-12 md:py-16 text-center px-4">
+    <h3 class="text-2xl md:text-3xl font-bold mb-6">Kontakt</h3>
+    <p class="mb-2">📞 +420 723 146 811</p>
+    <p class="mb-6">✉️ smarthome.kulhanek@gmail.com</p>
+    <a href="https://www.instagram.com/smarthome.kulhanek/?igsh=MXJsMnd3OWFxazkwMA%3D%3D&utm_source=qr#" target="_blank" class="text-pink-500 hover:underline mb-6 block flex items-center justify-center space-x-2">
+      <i class="fab fa-instagram"></i><span>Sledujte nás na Instagramu</span>
+    </a>
+    <form class="max-w-lg mx-auto">
+      <input type="text" placeholder="Vaše jméno" class="w-full p-3 mb-4 border rounded" required>
+      <input type="email" placeholder="Váš e-mail" class="w-full p-3 mb-4 border rounded" required>
+      <textarea placeholder="Vaše zpráva" class="w-full p-3 mb-4 border rounded" rows="5" required></textarea>
+      <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600 transition w-full">Odeslat</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center p-6 text-sm md:text-base">
+    <p>&copy; 2025 SmartHomeJK. Všechna práva vyhrazena.</p>
+    <p>Bc. Jakub Kulhánek | IČO: 18042708 | DIČ: CZ9306032252</p>
+  </footer>
+</body>
+</html>
 
