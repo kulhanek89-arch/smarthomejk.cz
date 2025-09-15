@@ -69,21 +69,26 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="kontakt" class="container mx-auto py-12 md:py-16 text-center px-4">
-    <h3 class="text-2xl md:text-3xl font-bold mb-6">Kontakt</h3>
-    <p class="mb-2">📞 +420 723 146 811</p>
-    <p class="mb-6">✉️ smarthome.kulhanek@gmail.com</p>
-    <a href="https://www.instagram.com/smarthome.kulhanek/?igsh=MXJsMnd3OWFxazkwMA%3D%3D&utm_source=qr#" target="_blank" class="text-pink-500 hover:underline mb-6 block flex items-center justify-center space-x-2">
-      <i class="fab fa-instagram"></i><span>Sledujte nás na Instagramu</span>
-    </a>
-    <form class="max-w-lg mx-auto">
-      <input type="text" placeholder="Vaše jméno" class="w-full p-3 mb-4 border rounded" required>
-      <input type="email" placeholder="Váš e-mail" class="w-full p-3 mb-4 border rounded" required>
-      <textarea placeholder="Vaše zpráva" class="w-full p-3 mb-4 border rounded" rows="5" required></textarea>
-      <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600 transition w-full">Odeslat</button>
-    </form>
-  </section>
+<!-- Contact -->
+<section id="kontakt" class="container mx-auto py-16 text-center">
+  <h3 class="text-3xl font-bold mb-6">Kontakt</h3>
+  <p class="mb-2">📞 +420 723 146 811</p>
+  <p class="mb-6">✉️ smarthome.kulhanek@gmail.com</p>
+  <a href="https://www.instagram.com/smarthome.kulhanek/?igsh=MXJsMnd3OWFxazkwMA%3D%3D&utm_source=qr#" target="_blank" class="text-pink-500 hover:underline mb-6 block flex items-center justify-center space-x-2">
+    <i class="fab fa-instagram"></i><span>Sledujte nás na Instagramu</span>
+  </a>
+
+  <!-- Upravený formulář -->
+  <form name="contact" method="POST" data-netlify="true" class="max-w-lg mx-auto">
+    <input type="hidden" name="form-name" value="contact">
+
+    <input type="text" name="name" placeholder="Vaše jméno" class="w-full p-3 mb-4 border rounded" required>
+    <input type="email" name="email" placeholder="Váš e-mail" class="w-full p-3 mb-4 border rounded" required>
+    <textarea name="message" placeholder="Vaše zpráva" class="w-full p-3 mb-4 border rounded" rows="5" required></textarea>
+
+    <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full shadow hover:bg-blue-600 transition">Odeslat</button>
+  </form>
+</section>
 
   <!-- Footer -->
   <footer class="bg-black text-white text-center p-6 text-sm md:text-base">
